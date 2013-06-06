@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name          = "spree-refinerycms-authentication"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
   gem.authors       = ["Adrian Macneil"]
   gem.email         = ["adrian@crescendo.net.nz"]
   gem.description   = "Configure Spree to use RefineryCMS for authentication"
@@ -13,6 +13,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^spec/})
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency 'spree', '~> 1.2'
+  gem.add_runtime_dependency 'spree', '~> 2.0'
   gem.add_runtime_dependency 'refinerycms', '~> 2.0'
 end
