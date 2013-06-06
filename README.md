@@ -14,8 +14,8 @@ Create a new RefineryCMS application:
 Add Spree and this gem to your Gemfile:
 
 ```ruby
-gem 'spree', '~> 1.2.0'
-gem 'spree-refinerycms-authentication', :git => 'git://github.com/adrianmacneil/spree-refinery-authentication.git'
+gem 'spree', '~> 2.0'
+gem 'spree-refinerycms-authentication', :git => 'git://github.com/watg/spree-refinery-authentication.git'
 ```
     
 Run bundler, then install Spree
