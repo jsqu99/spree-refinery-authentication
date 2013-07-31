@@ -1,6 +1,12 @@
 # Spree RefineryCMS Authentication gem
 
-[Spree 1.2](http://spreecommerce.com/) has a fantastic pluggable authentication system. This gem configures Spree
+WARNING
+==================
+
+I made some desparate hacks to this extension in order to get it working with spree 2.0 and my tweaked version of refinery.
+There were a few gotchas.  Look at the commits if you are interested
+
+[Spree 2.2](http://spreecommerce.com/) has a fantastic pluggable authentication system. This gem configures Spree
 to use the built in (Devise) authentication in [RefineryCMS](http://refinerycms.com/), and allows you to share
 authentication between the two engines.
 
